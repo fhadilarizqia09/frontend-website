@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Tanpa CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+
+  <body class="bg-grey-100 font-sans">
+    
+    <!--Navbar-->
+      <nav class="bg-white text-rose-900 fixed w-full top-0 z-50">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<div class="text-xl font-bold">
+BrandKita
+</div>
+<button id="menu-btn" class="md:hidden">
+<span class="material-symbols-outlined">
+menu
+</span>
+</button>
+<!-- Menu tampilan website -->
+<ul class="hidden md:flex gap-6">
+<li><a href="#home" class="hover:text-rose-950">Home</a></li>
+<li><a href="#about" class="hover:text-rose-950">About Us</a></li>
+<li><a href="#service" class="hover:text-rose-950">Service</a></li>
+<li><a href="#portfolio" class="hover:text-rose-950">Portfolio</a></li>
+<li><a href="#contact" class="hover:text-rose-950">Contact</a></li>
+<li><a href="data.html" class="bg-rose-800 hover:bg-rose-900 active:bg-rose-950 text-white px-6 py-2 rounded-lg font-semibold transition">Login</a></li>
+</ul>
+</div>
+<!-- Menu tampilan mobile -->
+<div id="menu" class="hidden md:hidden bg-white px-6 pb-4">
+<ul class="flex flex-col gap-4 text-center">
+<li><a href="#home" class="hover:text-rose-950">Home</a></li>
+<li><a href="#about" class="hover:text-rose-950">About Us</a></li>
+<li><a href="#service" class="hover:text-rose-950">Service</a></li>
+<li><a href="#portfolio" class="hover:text-rose-950">Portfolio</a></li>
+<li><a href="#contact" class="hover:text-rose-950">Contact</a></li>
+<li><a href="data.html" class="bg-pink-600 hover:bg-pink-700 active:bg-pink-800 text-white px-6 py-2 rounded-lg font-semibold transition">Login</a></li>
+</ul>
+</div>
+</nav>
+  <!--Navbar End-->
+
+
+<!--Home Section-->
+    <header id="home" class="relative min-h-[80vh]  flex flex-col justify-center items-center text-center px4 bg-[url(img/Meeting.jpg)] bg-cover bg-center">
+         <div class="absolute inset-0 bg-black/70"></div>
+         <div class="relative 1-10">
+        <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-gray-50 mb-4"> Selamat datang di website kami </h1>
+        <p class="text-gray-50"> Halaman ini adalah halaman utama website perusahaan </p>
+            <br>
+        <a href="#portofolio" class="bg-rose-900 hover:bg-rose-9500 text-white px-8 py-3 rounded-lg font-semibold">
+            Lihat portofolio
+        </a>
+       <div class="mt-8 flex flex-wrap justify-center gap-6 text-sm text-white">
+            <div>
+                <span class="font-bold text-white">50</span> project Selesai
+            </div>
+            <div>
+                <span class="font-bold text-white">18</span> Tahun
+            </div>
+            <div>
+                <span class="font-bold text-white">3</span> Client
+            </div>
+        </div>
+    </div>
+    </header>
+    <br>
+    <!--Home Section End-->
+ 
+<section class="py-16 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-4">
+    
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+
+      <!--ABOUT US-->
+      <div>
+<h2 class="text-3xl font-bold mb-4 text-rose-900">About Us</h2>
+<p class="text-gray-700 mb-4">
+Website ini dibuat sebagai media informasi dan pengembangan digital yang bertujuan untuk memberikan pengalaman terbaik bagi pengguna. 
+Kami berkomitmen menghadirkan tampilan yang sederhana, modern, dan mudah digunakan, serta konten yang bermanfaat dan relevan.
+</p>
+<p class="text-gray-700 mb-4">
+Kami percaya bahwa teknologi dapat menjadi solusi untuk mempermudah aktivitas dan menyampaikan informasi secara efektif.
+Oleh karena itu, website ini akan terus dikembangkan dan diperbarui agar tetap relevan, responsif, dan fungsional di berbagai perangkat.
+</p>
+<p class="text-gray-700">
+Terima kasih telah mengunjungi website kami. Kritik dan saran sangat kami hargai demi pengembangan yang lebih baik ke depannya.
+</p>
+</div>
+<!-- KONTEN PENDUKUNG -->
+<div class="space-y-6">
+<!-- VISI -->
+<div class="bg-white p-8 rounded-xl shadow">
+<h3 class="text-xl font-semibold mb-2 text-rose-900">Visi Kami</h3>
+<p class="text-gray-600 mb-3">
+Menjadi partner digital terpercaya bagi bisnis dan individu dalam
+membangun kehadiran online
+yang
+kuat.
+</p>
+<p class="text-gray-600">
+Kami terus mengikuti perkembangan teknologi untuk memastikan setiap
+solusi yang kami berikan
+selalu
+relevan, aman, dan mudah digunakan.
+</p>
+</div>
+<!-- VALUE -->
+<div class="bg-gray-100 p-8 rounded-xl shadow">
+<h3 class="text-xl font-semibold mb-4 text-rose-900">Nilai yang Kami Pegang</h3>
+<ul class="space-y-2 text-gray-700">
+<li>✔ Desain modern & responsif</li>
+<li>✔ Kode bersih dan terstruktur</li>
+<li>✔ Mudah dikembangkan di masa depan</li>
+</ul>
+</div>
+      </section>
+
+      <section class="px-6 py-16 bg-gray-100">
+
+        <h2 class="text-3xl font-bold text-center mb-10 text-rose-900">Service</h2>
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Web Development -->
+
+            <div class="bg-white p-8 rounded-xl shadow transition hover:shadow-xl hover:-translate-y-1">
+
+                <div class="w-12 h-12 mb-4 flex items-center justify-center rounded-lg bg-blue-100 text-blue-600">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+
+                        stroke="currentColor">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+
+                            d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+
+                    </svg>
+
+                </div>
+
+                <h3 class="text-xl font-semibold mb-2 text-rose-900">Web Development</h3>
+
+                <p class="text-gray-600">
+
+                    Pembuatan website cepat, aman, dan responsif sesuai kebutuhan bisnis.
+
+                </p>
+
+            </div>
+
+            <!-- UI UX -->
+
+            <div class="bg-white p-8 rounded-xl shadow transition hover:shadow-xl hover:-translate-y-1">
+
+                <div class="w-12 h-12 mb-4 flex items-center justify-center rounded-lg bg-purple-100 text-purple-600">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+
+                        stroke="currentColor">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+
+                            d="M9.75 17L3 21l4-7.25M14.25 17L21 21l-4-7.25M12 3v10" />
+
+                    </svg>
+
+                </div>
+
+                <h3 class="text-xl font-semibold mb-2 text-rose-900">UI / UX Design</h3>
+
+                <p class="text-gray-600">
+
+                    Desain antarmuka yang nyaman digunakan dan meningkatkan konversi.
+
+                </p>
+
+            </div>
+
+            <!-- Maintenance -->
+
+            <div class="bg-white p-8 rounded-xl shadow transition hover:shadow-xl hover:-translate-y-1">
+
+                <div class="w-12 h-12 mb-4 flex items-center justify-center rounded-lg bg-green-100 text-green-600">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+
+                        stroke="currentColor">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+
+                            d="M12 8v4l3 3M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+
+                    </svg>
+
+                </div>
+
+                <h3 class="text-xl font-semibold mb-2 text-rose-900">Maintenance</h3>
+
+                <p class="text-gray-600">
+
+                    Perawatan dan pengembangan berkelanjutan untuk website Anda.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!--PORTOFOLIO-->
+
+<section id="portofolio" class="px-6 py-16 bg-gray-100">
+  <h2 class="text-3xl font-bold text-center mb-10 text-rose-900">Portofolio</h2>
+
+   <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <!--CARD-->
+    <div class="bg-white rounded-xl shadow overflow-hidden transition hover:shadow-xl hover:-translate-y-1">
+
+    <img src="img/Web Profile.webp" alt="company profile website" class="w-full h-45 object-cover">
+
+    <div class="p-6">
+      <h3 class="text-4xl font-semibold mb-2">Company Profile Website</h3>
+      <p>Website profile perusahaan</p>
+      <p>
+        Tech :
+        <span class="inline-flex items-center rounded-md bg-pink-400/10 px-2 py-1 text-xs font-medium text-pink-400 inset-ring inset-ring-pink-400/20">Badge</span>
+      </p>
+    </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow overflow-hidden transition hover:shadow-xl hover:-translate-y-1">
+
+    <img src="img/Web.webp" alt="company profile website" class="w-full h-45 object-cover">
+
+    <div class="p-6">
+      <h3 class="text-4xl font-semibold mb-2">Company Profile Website</h3>
+      <p>Website profile perusahaan</p>
+      <p>
+        Tech :
+        <span class="inline-flex items-center rounded-md bg-pink-400/10 px-2 py-1 text-xs font-medium text-pink-400 inset-ring inset-ring-pink-400/20">Badge</span>
+      </p>
+    </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow overflow-hidden transition hover:shadow-xl hover:-translate-y-1">
+
+    <img src="img/profile company.webp" alt="company profile website" class="w-full h-45 object-cover">
+
+    <div class="p-6">
+      <h3 class="text-4xl font-semibold mb-2">Company Profile Website</h3>
+      <p>Website profile perusahaan</p>
+      <p>
+        Tech :
+        <span class="inline-flex items-center rounded-md bg-pink-400/10 px-2 py-1 text-xs font-medium text-pink-400 inset-ring inset-ring-pink-400/20">Badge</span>
+      </p>
+    </div>
+    </div>
+   </div>
+</section>
+
+<!--CONTACT-->
+
+<section id="kontak" class="px-6 py-16 bg-white-100">
+    <h2 class="text-3xl font-bold text-center mb-10 text-rose-900">Our Contact</h2>
+      <form name="nameForm" onsubmit="return validateForm()" method="post" class="max-w-xl mx-auto bg-gray-100 p-8 rounded-lg shadow space-y-4">
+        <input type="text" name="name" id="nama" placeholder="Nama" class="w-full px-4 py-3 rounded-lg 
+        border focus:outline-none focus:border-rose-900 focus:ring-2 focus:ring-rose-900">
+
+        <input type="email" name="email" id="email" placeholder="Email" class="w-full px-4 py-3 rounded-lg 
+        border focus:outline-none focus:border-rose-900 focus:ring-2 focus:ring-rose-900">
+
+        <textarea name="pesan" id="pesan" placeholder="Pesan" rows="4" class="w-full px-4 py-3 rounded-lg 
+        border focus:outline-none focus:border-rose-900 focus:ring-2 focus:ring-rose-900"></textarea>
+
+        <button type="submit" class="w-full bg-rose-900 hover:bg-rose-950 active:bg-rose-900 text-white py-3
+        rounded-lg font-semibold transition">Submit</button>
+      </form>
+</section>
+
+
+      <!--Footer-->
+    <footer class="bg-white text-rose-900 text-center p-6">
+      <p>&copy;2026 Brandkita. Semua Hak Dilindungi</p>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+
+        btn.addEventListener('click' , () => {
+            menu.classList.toggle('hidden');
+        })
+    </script>
+
+    <script>
+        function validateForm(){
+            let name = document.forms["nameForm"]["name"].value;
+            let email = document.forms["nameForm"]["email"].value;
+            let pesan = document.forms["nameForm"]["pesan"].value;
+
+            if (name == ""){
+                alert("Nama Harus Diisi");
+                return false;
+            }
+             if (email == ""){
+                alert("Email Harus Diisi");
+                return false;
+            }
+             if (pesan == ""){
+                alert("Pesan Harus Diisi");
+                return false;
+            }   }     
+    </script>
+
+     <script>
+
+        document.forms["nameForm"].addEventListener("submit", function (e) {
+
+            if (validateForm() === false) {
+
+                e.preventDefault();
+
+                return;
+
+            }
+
+            e.preventDefault();
+
+            const name = document.forms["nameForm"]["name"].value;
+
+            const email = document.forms["nameForm"]["email"].value;
+
+            const pesan = document.forms["nameForm"].querySelector("textarea").value;
+
+            const data = {
+
+                name: name,
+
+                email: email,
+
+                pesan: pesan
+
+            };
+
+            let listData = JSON.parse(localStorage.getItem("pesan")) || [];
+
+            listData.push(data);
+
+            localStorage.setItem("pesan", JSON.stringify(listData));
+
+            document.forms["nameForm"].reset();
+
+        });
+
+    </script>
+  
+</body>
+</html>
